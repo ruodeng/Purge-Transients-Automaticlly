@@ -72,10 +72,7 @@ class purge_transients_automaticlly{
             wp_die(__('You do not have sufficient permissions to access this page.'));
         }
 
-        global $wpdb;
-        echo "	delete from ".$wpdb->prefix."options
-			where option_name like '\_transient\_%'
-			or    option_name like '\_site\_transient\_%' ";
+      
         ?>
         <div class="wrap">
 
