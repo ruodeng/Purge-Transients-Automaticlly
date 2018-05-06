@@ -7,9 +7,7 @@
  * Version: 0.0.1
  * Text Domain: purge_transients_automaticlly
  */
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 define('PURGE_TRANSIENTS_AUTOMATICLLY_DIR', dirname(__FILE__));
 define('PURGE_TRANSIENTS_AUTOMATICLLY_VERSION','0.0.1');
